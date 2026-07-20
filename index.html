@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joobin Youn — Information Security Engineer</title>
+<meta name="description" content="Joobin Youn — Information Security Engineer at Koscom. SOC automation, anomaly detection, and financial infrastructure security.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <span class="nav-id">joobinyoun</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#papers">Papers</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>Joobin Youn</h1>
+    <p class="role">Information Security Engineer at <strong>Koscom</strong>, Korea's national financial IT infrastructure provider. Building SOC automation, and researching where machine learning meets security operations.</p>
+    <div class="hero-links">
+      <a href="mailto:joobinyoun@gmail.com">Email</a>
+      <a href="https://github.com/JoobinYoun" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/joobin-youn" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="#papers">CV / Papers</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="about">
+    <div class="section-head">
+      <span class="section-index">01</span>
+      <h2>About Me</h2>
+    </div>
+    <div class="lede">
+      <p>I'm an information security engineer with five-plus years of experience spanning the Security Management Team and CERT at Koscom, where I work on threat detection, incident response, and internal security tooling for financial-sector infrastructure. I hold a CISSP certification and a B.S. in Information Systems from Hanyang University, with an exchange semester at the University of Konstanz, Germany.</p>
+      <p>Lately, most of my time goes into building AI-CERT, an on-premises LLM-powered SOC automation system, and preparing to pursue a Master's degree focused on security research.</p>
+    </div>
+  </section>
+
+  <section id="research">
+    <div class="section-head">
+      <span class="section-index">02</span>
+      <h2>Research Interests</h2>
+    </div>
+    <div class="lede">
+      <p>I'm drawn to problems at the intersection of applied machine learning and security operations — particularly how automation and anomaly detection can be built responsibly into environments where false positives carry real operational cost.</p>
+    </div>
+    <div class="chip-row">
+      <span class="chip">Anomaly Detection</span>
+      <span class="chip">ML for Security</span>
+      <span class="chip">SOC Automation &amp; Orchestration</span>
+      <span class="chip">LLM Systems Security</span>
+      <span class="chip">Applied Cryptography</span>
+      <span class="chip">Financial Infrastructure Security</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-head">
+      <span class="section-index">03</span>
+      <h2>Projects</h2><span>(Non-Public due to NDA)</span>
+    </div>
+
+    <div class="record-list">
+
+      <article class="record">
+        <div class="record-time">2026 —<br>Present</div>
+        <div class="record-body">
+          <h3>AI-CERT<span class="badge badge-active">ACTIVE</span></h3>
+          <p class="record-context">On-premises LLM-powered SOC automation platform</p>
+          <p class="desc">Integrates a self-hosted Qwen3-27B model (via Ollama/LiteLLM) with Splunk Enterprise Security through a FastAPI relay server. Handles automated incident triage with historical enrichment, confidence-based auto-resolution, and a custom Splunk dashboard built with SplunkJS.</p>
+          <div class="tag-row">
+            <span class="tag">LLM</span><span class="tag">Splunk ES</span><span class="tag">FastAPI</span><span class="tag">SOC Automation</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="record">
+        <div class="record-time">2025</div>
+        <div class="record-body">
+          <h3>Host Firewall Management &amp; Micro-Segmentation System<span class="badge badge-pilot">PILOT</span></h3>
+          <p class="record-context">Testbed for centralized policy management</p>
+          <p class="desc">Designed and built a testbed for centralized host firewall policy management and micro-segmentation across a hybrid on-premises/cloud environment.</p>
+          <div class="tag-row">
+            <span class="tag">Micro-segmentation</span><span class="tag">Host Firewall</span><span class="tag">Testbed</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="record">
+        <div class="record-time">2024 —<br>Present</div>
+        <div class="record-body">
+          <h3>Enterprise IT Asset Management &amp; Rogue Device Detection System<span class="badge badge-prod">PROD</span></h3>
+          <p class="record-context">In continuous production use</p>
+          <p class="desc">Built and operate a system for enterprise IT asset inventory tracking and rogue/unauthorized device detection. In production since 2024, with ongoing maintenance and feature updates.</p>
+          <div class="tag-row">
+            <span class="tag">Asset Management</span><span class="tag">Network Detection</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="record">
+        <div class="record-time">2021 —<br>Present</div>
+        <div class="record-body">
+          <h3>Security Managed Service Customer Management System<span class="badge badge-prod">PROD</span></h3>
+          <p class="record-context">In continuous production use</p>
+          <p class="desc">Developed and maintain the customer management system supporting Koscom's security managed services. In production since 2021, with continuous updates and maintenance.</p>
+          <div class="tag-row">
+            <span class="tag">Managed Security Services</span><span class="tag">Internal Tooling</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="papers">
+    <div class="section-head">
+      <span class="section-index">04</span>
+      <h2>Course Papers</h2>
+    </div>
+    <div class="lede">
+      <p>Course-level research projects, not peer-reviewed publications.</p>
+    </div>
+
+    <div class="record-list">
+
+      <article class="record">
+        <div class="record-time">Spring<br>2019</div>
+        <div class="record-body paper-body">
+          <img class="paper-thumb" src="assets/thumbs/clipboard-hijacking.jpg" alt="First page of the Clipboard Hijacking paper">
+          <div>
+            <h3>Clipboard Hijacking</h3>
+            <p class="record-context">Information Security · Hanyang University</p>
+            <p class="desc">Coursework paper examining clipboard-hijacking attack techniques and mitigations, later expanded into a companion write-up and video walkthrough.</p>
+            <a class="paper-link" href="assets/pdfs/clipboard-hijacking.pdf" target="_blank" rel="noopener">View PDF</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="record">
+        <div class="record-time">Fall<br>2018</div>
+        <div class="record-body paper-body">
+          <img class="paper-thumb" src="assets/thumbs/right-whale-recognition.jpg" alt="First page of the Right Whale Recognition paper">
+          <div>
+            <h3>Right Whale Recognition</h3>
+            <p class="record-context">Machine Learning using MATLAB · University of Konstanz</p>
+            <p class="desc">CNN-based individual whale identification project built during an exchange semester in Konstanz, Germany.</p>
+            <a class="paper-link" href="assets/pdfs/right-whale-recognition.pdf" target="_blank" rel="noopener">View PDF</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-row">
+      <p>&copy; 2026 Joobin Youn</p>
+      <p><a href="mailto:youjoobin@gmail.com">youjoobin@gmail.com</a> · <a href="https://github.com/JoobinYoun" target="_blank" rel="noopener">github.com/JoobinYoun</a></p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
