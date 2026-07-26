@@ -14,7 +14,7 @@
 
 <nav class="nav">
   <div class="wrap">
-    <span class="nav-id">joobinyoun</span>
+    <span class="nav-id">&nbsp;</span>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#research">Research</a></li>
@@ -26,13 +26,20 @@
 
 <header class="hero">
   <div class="wrap">
-    <h1>Joobin Youn</h1>
-    <p class="role">Information Security Engineer at <strong>Koscom</strong>, Korea's national financial IT infrastructure provider. Building SOC automation, and researching where machine learning meets security operations.</p>
+    <div class="hero-id">
+      <div class="avatar-frame">
+        <img class="avatar" src="assets/img/avatar.jpg" alt="Portrait of Joobin Youn">
+        <span class="avatar-status" aria-hidden="true"></span>
+      </div>
+      <div>
+        <h1>Joobin Youn</h1>
+        <p class="role">Security Engineer · CERT Team Manager · Koscom</p>
+      </div>
+    </div>
     <div class="hero-links">
-      <a href="mailto:joobinyoun@gmail.com">Email</a>
-      <a href="https://github.com/JoobinYoun" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://www.linkedin.com/in/joobin-youn" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="#papers">CV / Papers</a>
+      <a href="mailto:youjoobin@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/joobinyoun" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="assets/cv.pdf" target="_blank" rel="noopener">CV</a>
     </div>
   </div>
 </header>
@@ -45,8 +52,7 @@
       <h2>About Me</h2>
     </div>
     <div class="lede">
-      <p>I'm an information security engineer with five-plus years of experience spanning the Security Management Team and CERT at Koscom, where I work on threat detection, incident response, and internal security tooling for financial-sector infrastructure. I hold a CISSP certification and a B.S. in Information Systems from Hanyang University, with an exchange semester at the University of Konstanz, Germany.</p>
-      <p>Lately, most of my time goes into building AI-CERT, an on-premises LLM-powered SOC automation system, and preparing to pursue a Master's degree focused on security research.</p>
+      <p>I am an information security engineer with seven years of experience across the Security Operations Team and CERT at Koscom. My work focuses on threat detection, incident response, and engineering internal security tooling for national financial infrastructure. I hold a CISSP certification and a B.S. in Information Systems from Hanyang University, complemented by an exchange semester at the University of Konstanz, Germany.</p>
     </div>
   </section>
 
@@ -56,22 +62,21 @@
       <h2>Research Interests</h2>
     </div>
     <div class="lede">
-      <p>I'm drawn to problems at the intersection of applied machine learning and security operations — particularly how automation and anomaly detection can be built responsibly into environments where false positives carry real operational cost.</p>
-    </div>
-    <div class="chip-row">
-      <span class="chip">Anomaly Detection</span>
-      <span class="chip">ML for Security</span>
-      <span class="chip">SOC Automation &amp; Orchestration</span>
-      <span class="chip">LLM Systems Security</span>
-      <span class="chip">Applied Cryptography</span>
-      <span class="chip">Financial Infrastructure Security</span>
+      <p>
+		  <ul>
+			<li>Anomaly Detection</li>
+			<li>ML for Security</li>
+			<li>SOC Automation &amp; Orchestration</li>
+			<li>LLM Systems Security</li>
+		  </ul>
+	  </p>
     </div>
   </section>
 
   <section id="projects">
     <div class="section-head">
       <span class="section-index">03</span>
-      <h2>Projects</h2><span>(Non-Public due to NDA)</span>
+      <h2>Projects</h2>
     </div>
 
     <div class="record-list">
@@ -83,7 +88,7 @@
           <p class="record-context">On-premises LLM-powered SOC automation platform</p>
           <p class="desc">Integrates a self-hosted Qwen3-27B model (via Ollama/LiteLLM) with Splunk Enterprise Security through a FastAPI relay server. Handles automated incident triage with historical enrichment, confidence-based auto-resolution, and a custom Splunk dashboard built with SplunkJS.</p>
           <div class="tag-row">
-            <span class="tag">LLM</span><span class="tag">Splunk ES</span><span class="tag">FastAPI</span><span class="tag">SOC Automation</span>
+            <span class="tag">LLM</span><span class="tag">Splunk ES</span><span class="tag">FastAPI</span><span class="tag">SOC Automation</span><span class="tag">Internal Tooling</span>
           </div>
         </div>
       </article>
@@ -95,7 +100,7 @@
           <p class="record-context">Testbed for centralized policy management</p>
           <p class="desc">Designed and built a testbed for centralized host firewall policy management and micro-segmentation across a hybrid on-premises/cloud environment.</p>
           <div class="tag-row">
-            <span class="tag">Micro-segmentation</span><span class="tag">Host Firewall</span><span class="tag">Testbed</span>
+            <span class="tag">Zero-Trust</span><span class="tag">Micro-segmentation</span><span class="tag">Ansible</span><span class="tag">Flask</span><span class="tag">Testbed</span><span class="tag">Internal Tooling</span>
           </div>
         </div>
       </article>
@@ -107,7 +112,7 @@
           <p class="record-context">In continuous production use</p>
           <p class="desc">Built and operate a system for enterprise IT asset inventory tracking and rogue/unauthorized device detection. In production since 2024, with ongoing maintenance and feature updates.</p>
           <div class="tag-row">
-            <span class="tag">Asset Management</span><span class="tag">Network Detection</span>
+            <span class="tag">Asset Management</span><span class="tag">Network Detection</span><span class="tag">Flask</span><span class="tag">Internal Tooling</span>
           </div>
         </div>
       </article>
@@ -117,9 +122,21 @@
         <div class="record-body">
           <h3>Security Managed Service Customer Management System<span class="badge badge-prod">PROD</span></h3>
           <p class="record-context">In continuous production use</p>
-          <p class="desc">Developed and maintain the customer management system supporting Koscom's security managed services. In production since 2021, with continuous updates and maintenance.</p>
+          <p class="desc">Developed a web-based management portal using Flask and MySQL in 2021 to streamline internal operational workflows for managing external security-monitoring service clients. Have maintained it since, with continuous updates.</p>
           <div class="tag-row">
-            <span class="tag">Managed Security Services</span><span class="tag">Internal Tooling</span>
+            <span class="tag">Managed Security Services</span><span class="tag">CRM</span><span class="tag">Flask</span><span class="tag">Internal Tooling</span>
+          </div>
+        </div>
+      </article>
+	  
+	  <article class="record">
+        <div class="record-time">2020 —<br>Present</div>
+        <div class="record-body">
+          <h3>Financial Cloud Security Monitoring Console<span class="badge badge-prod">PROD</span></h3>
+          <p class="record-context">In continuous production use</p>
+          <p class="desc">Maintain and harden a Vue.js/Express.js portal (originally built 2019) that gives managed-service customers real-time security dashboards, log lookup, and automated monthly reports with attacker rankings and log statistics.</p>
+          <div class="tag-row">
+            <span class="tag">Managed Security Services</span><span class="tag">Vue.js</span><span class="tag">Express.js</span>
           </div>
         </div>
       </article>
@@ -128,11 +145,11 @@
   </section>
 
   <section id="papers">
-    <div class="section-head">
+    <div class="section-head" style="margin-bottom: 0;">
       <span class="section-index">04</span>
       <h2>Course Papers</h2>
     </div>
-    <div class="lede">
+    <div class="lede" style="margin-bottom: 32px;">
       <p>Course-level research projects, not peer-reviewed publications.</p>
     </div>
 
