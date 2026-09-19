@@ -20,7 +20,7 @@
   --font-body: 'IBM Plex Sans', sans-serif;
   --font-mono: 'IBM Plex Mono', monospace;
 
-  --max-width: 760px;
+  --max-width: 850px;
 }
 
 * { box-sizing: border-box; }
@@ -248,7 +248,7 @@ section:last-of-type { border-bottom: none; }
 
 .lede {
   color: var(--text-secondary);
-  max-width: 62ch;
+  max-width: 80ch;
 }
 .lede p { margin: 0 0 16px; }
 .lede p:last-child { margin-bottom: 0; }
